@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('//fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -66,6 +66,10 @@ header {
 
 .mobile__menu--btn {
 	@apply inline-flex justify-center items-center gap-[10px] h-[50px] px-[15px] py-[10px] rounded-[40px] border border-offwhite bg-white2 text-gray text-base font-normal leading-[120%];
+}
+
+.active {
+	@apply text-black font-medium;
 }
 
 /* Hero Area */
